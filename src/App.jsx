@@ -1,9 +1,11 @@
-import React from 'react'
+import SearchAutocomplete from "./search-autocomplete-with-api";
 
 function App() {
   return (
-    <div>App</div>
-  )
+    <div>
+      <SearchAutocomplete />
+    </div>
+  );
 }
 
-export default App
+export default App;
